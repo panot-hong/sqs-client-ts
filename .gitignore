@@ -1,3 +1,4 @@
 *.map
 lib/**/*.js
+*.js
 node_modules
