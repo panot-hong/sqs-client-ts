@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"target": "ES2017",
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"noImplicitAny": false,
+		"allowSyntheticDefaultImports": true,
+		"removeComments": true,
+		"sourceMap": true,
+		"lib": ["esnext", "dom"]
+	},
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}

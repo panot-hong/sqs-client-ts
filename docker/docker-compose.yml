@@ -1,0 +1,12 @@
+version: '3'
+services:
+    localstack:
+        container_name: aws_localstack_sqs
+        image: localstack/localstack:0.9.0
+        environment:
+            - SERVICES=sqs
+            - DEFAULT_REGION=eu-west-1
+            - HOSTNAME=localstack
+        ports:
+            - "4567-4584:4567-4584"
+            - 8080:8082
