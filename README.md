@@ -33,7 +33,8 @@ npm run test
 It will compile typescript and run tests.
 
 ## Usage
-Either remain usage of config file and update LOCAL = 0 or simply remove LOCAL case in sqs-client.ts function getQueueUrl for connecting to SQS on AWS.
+- Either remain usage of config file and update LOCAL = 0 or simply remove LOCAL case in sqs-client.ts function getQueueUrl for connecting to SQS on AWS.
+- Update aws-config.json with valid IAM key or replace with regular environment file approach for linux environment.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
